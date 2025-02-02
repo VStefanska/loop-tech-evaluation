@@ -1,0 +1,11 @@
+{
+  "name": "loop-tech-evaluation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.0"
+  },
+  "scripts": {}
+}
