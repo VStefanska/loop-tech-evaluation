@@ -23,24 +23,25 @@ const testData = [
         dashboardItemTitle: 'Design system updates',
         dashboardItemTags: ['Design']
     },
-    // {
-    //     project: '',
-    //     column: '',
-    //     dashboardItemTitle: '',
-    //     dashboardItemTags: ''
-    // },
-    // {
-    //     project: '',
-    //     column: '',
-    //     dashboardItemTitle: '',
-    //     dashboardItemTags: ''
-    // },
-    // {
-    //     project: '',
-    //     column: '',
-    //     dashboardItemTitle: '',
-    //     dashboardItemTags: ''
-    // }
+
+    {
+        project: ProjectName.MOBILE_APPLICATION,
+        column: ColumnName.TO_DO,
+        dashboardItemTitle: 'Push notification system',
+        dashboardItemTags: ['Feature']
+    },
+    {
+        project: ProjectName.MOBILE_APPLICATION,
+        column: ColumnName.IN_PROGRESS,
+        dashboardItemTitle: 'Offline mode',
+        dashboardItemTags: ['Feature', 'High Priority']
+    },
+    {
+        project: ProjectName.MOBILE_APPLICATION,
+        column: ColumnName.DONE,
+        dashboardItemTitle: 'App icon design',
+        dashboardItemTags: ['Design']
+    },
 ]
 
 let admin: User;
